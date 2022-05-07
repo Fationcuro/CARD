@@ -27,3 +27,15 @@ li a{
     color: white;
     font-weight: bold;
 }
+main{
+    margin-top: 200px;
+}
+main h4{
+    color: rgb(170, 16, 16);
+    font-weight: bold;
+    padding: 0px 100px;
+}
+main h1{
+    padding: 0px 100px;
+    color: white;
+}
