@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(11, 11, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    color: rgb(170, 16, 16);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+
+}
+header ul{
+    display:flex;
+    gap: 50px;
+
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
