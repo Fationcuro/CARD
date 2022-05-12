@@ -12,11 +12,13 @@ html {
     width: 350px;
     margin: 50px auto;
     box-shadow: 3px 3px 10px rgb(201, 200, 200);
-    transition: transform 0.5s ease-out 1s;
+    transition:transform 1s ease-out ;
+
   }
   .card-container:hover{
-    transform: scale(1.05);
-  }
+    transform: scale(1.05); 
+   }  
+
   
   h1 {
     color: var(--color-dark-100);
@@ -26,7 +28,6 @@ html {
     font-family: 'Zilla Slab', serif;
     font-weight: 600;
   }
-  
   .card-info {
     color: rgb(134, 134, 134);
     text-align: left;
