@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@700;900&family=Redressed&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>HTML Forms</title>
 </head>
@@ -12,7 +15,11 @@
 
     <form action="/" method="GET"> 
         <label for="user-name">Your Name</label>
-    <input type="text" name="user-name" id="user-name" >
+    <input type="email" name="user-name" id="user-name" >
+    <label for="useremail">Your email address</label>
+    <input type="email" name="user-email" id="useremail">
+    <label for="number">Number</label>
+    <input type="number" name="user-number" id="number" min="0" max="50">
     <button>Submit</button>
 </form>
 
