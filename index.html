@@ -30,23 +30,37 @@
     <input type="date" name="user-data" id="userdata">
 
     <hr>
+    <h2>How should we verify your account?</h2>
     <div class="form-control-inline">
 
-        <h2>How should we verify your account?</h2>
         <input type="radio" name="verify" id="verify-text-message" value="text-message" >
         <label for="verify-text-message">Via text messages (SMS)</label>
     </div>
-    <div>
+    <div class="form-control-inline">
 
         <input type="radio"name="verify"  id="verify-phone">
         <label for="verify-phone">Via phone call</label>
     </div>
-    <div>
+    <div class="form-control-inline">
 
         <input type="radio" name="verify"  id="verify-email">
         <label for="verify-email">  Via an email</label>
     </div>
 
+    <div class="form-control-inline">
+         <input type="checkbox" id="agree-temrs">
+         <label for="agree-terms">Agree to agree-terms?</label>
+    </div>
+
+    <div class="form-control-inline">
+        <input type="checkbox" id="via-email">
+        <label for="via-email">Contact me via email</label>
+   </div>
+
+   <div class="form-control-inline">
+    <input type="checkbox" id="via-phone">
+    <label for="via-phone">Contact me via phone</label>
+</div>
     
     <button>Submit</button>
 </form>
