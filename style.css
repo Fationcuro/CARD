@@ -1,31 +1,8 @@
-html{
-    --color-100:grey;
-    --color-200:black;
-    --color-300:darkgray;
-    --color-400:white;
-}
-body{
-    background-color: var(--color-200);
-}
-header{
-    display: flex;
-    align-items: center;
-    padding: 0px 10px;
-    position: absolute;
-    justify-content: space-between;
-}
-header a{
-    color: var(--color-400);
-}
-header h4{
-    color: var(--color-400);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-     margin: 10px;
 
-}
-nav li{
-    list-style: none;
-    color: var(--color-400);
-    font-family: Arial, Helvetica, sans-serif;
+
+main{
+    height:700px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 5px 5px 5px gray;
 }
