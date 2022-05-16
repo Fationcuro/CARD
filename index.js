@@ -1,1 +1,2 @@
-console.log();
+alert('Hi Iam Fation')
+32
