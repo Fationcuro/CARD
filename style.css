@@ -104,3 +104,27 @@ header h1{
     transform: scale(1.5);
 
 }
+.btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.btn button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: aqua;
+    transition: transform 1s ease-out ;
+
+}
+.btn button:focus{
+    background-color: rgb(53, 255, 53);
+    transition: 1s;
+
+}
+.btn button:hover{
+    transform: scale(1.5);
+
+}
