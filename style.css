@@ -111,17 +111,18 @@ header h1{
     margin-top: 50px;
 
 }
-.btn button{
-    border: none;
-    padding: 12px 24px;
-    border-radius: 10px;
-    background-color: aqua;
-    transition: transform 1s ease-out ;
+.btn a{
 
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.btn button:focus{
-    background-color: rgb(53, 255, 53);
-    transition: 1s;
+.btn button {
+  border-radius: 10px;
+  border: none;
+  padding: 12px 24px;
+  background-color: aqua;
+  transition: transform 1s ease-out ;
 
 }
 .btn button:hover{
