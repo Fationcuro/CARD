@@ -83,3 +83,24 @@ header h1{
     transform: scale(1.5);
 
 }
+.messages{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.messages textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 60px;
+    transition: transform 1s ease-out ;
+}
+.messages textarea:focus{
+    background-color: rgb(53, 255, 53)
+}
+.messages textarea:hover{
+    transform: scale(1.5);
+
+}
