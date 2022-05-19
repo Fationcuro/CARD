@@ -29,9 +29,13 @@ header h1{
     outline: none;
     width: 200px;
     height: 30px;
+    transition: transform 1s ease-out ;
 }
 .name input:focus{
     background-color: rgb(53, 255, 53)
+}
+.name input:hover{
+   transform: scale(1.5);
 }
 .lastname{
     display: flex;
@@ -45,10 +49,17 @@ header h1{
     outline: none;
     width: 200px;
     height: 30px;
+    transition: transform 1s ease-out ;
+
 }
 .lastname input:focus{
     background-color: rgb(53, 255, 53)
 }
+.lastname input:hover{
+    transform: scale(1.5);
+
+}
+
 .email{
     display: flex;
     gap: 20px;
@@ -61,8 +72,14 @@ header h1{
     outline: none;
     width: 200px;
     height: 30px;
+    transition: transform 1s ease-out ;
+
 }
 .email input:focus{
     background-color: rgb(53, 255, 53)
+
+}
+.email input:hover{
+    transform: scale(1.5);
 
 }
