@@ -1,10 +1,9 @@
-let age ='16';
-let userName = 'Fation';
-let hobbies = ['Sports', 'Progrsmming', 'Reading'];
-let job ={
-title: 'Developer',    
-place:'New York',
-salary:50000
-};
+var a;
+var b = 2;
 
-alert (hobbies [0])
+a = 7;
+
+
+b = a;
+
+console.log(b)
