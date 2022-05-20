@@ -1,9 +1,3 @@
-var a;
-var b = 2;
-
-a = 7;
-
-
-b = a;
-
-console.log(b)
+    // This is my JavaScript code!
+    console.log('Hello World');
+    
