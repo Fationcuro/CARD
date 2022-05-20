@@ -1,6 +1,10 @@
-let age = 32;
+let age ='16';
 let userName = 'Fation';
-let hobbies = ['Sports', 'Programming'];
-let job = { title: 'Developer', place: 'New York', salary:50000};
+let hobbies = ['Sports', 'Progrsmming', 'Reading'];
+let job ={
+title: 'Developer',    
+place:'New York',
+salary:50000
+};
 
-alert(job []);
+alert (hobbies [0])
