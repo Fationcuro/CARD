@@ -1,8 +1,13 @@
 let age = 32;
-let userName = 'Fation';
+let userName = 'Fation' + 'Arsen';
 let hobbies = ['Sports', 'Cooking', 'Reading'];
-let job = {  title: 'Developer', place:'Albania', salary:50000 };
+let job = {  
+    title: 'Developer',
+     place:'Albania', 
+     salary:50000
+     };
 
+age = 45;
+let adultYears = age - 16;
+alert(adultYears);
 
-alert(hobbies [1])
-console.log(job.place)
